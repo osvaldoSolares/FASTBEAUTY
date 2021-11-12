@@ -20,7 +20,7 @@ body{
 
 header{
     height: 100vh;
-    background-image: url(../img/ultima.jpg);
+    background-image: url(../img/buen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -170,7 +170,7 @@ nav a:hover{
     left: 0;
     width: 100%;
     height:100%;
-    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    background: linear-gradient(45deg, #ffffff, #ffffff);
     }
   .container .box::after{
     content: '';
@@ -179,16 +179,16 @@ nav a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    background: linear-gradient(45deg, #0062ff, #002fff69);
     filter: blur(30px);
     }
   .container .box:nth-child(2)::before,
   .container .box:nth-child(2)::after{
-    background: linear-gradient(315deg, #03a9f4, #ff0058);
+    background: linear-gradient(315deg, #ff7fc5, #fdbad4);
     }
   .container .box:nth-child(3)::before,
   .container .box:nth-child(3)::after{
-    background: linear-gradient(315deg, #4dff03, #00d0ff);
+    background: linear-gradient(315deg, #ff0303, #6b0000);
     }
   .container .box span{
     position: absolute;
