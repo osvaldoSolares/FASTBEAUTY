@@ -6,8 +6,8 @@
 
 body{
     font-family: 'Rajdhani', sans-serif;
-    background: linear-gradient(315deg, #ff048e, #000000);
-    color: #fff;
+    background-color: #000;
+    color: rgb(0, 255, 128);
 }
 
 .contenedor{
@@ -41,9 +41,12 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     animation: moverArriba 1s ease-in ;
+    filter:brightness(5.4);
+    filter: drop-shadow(50px 50px 20px rgb(255, 0, 174));
+    text-shadow:0 0 5px rgb(255, 0, 174), 0 0 5px rgb(255, 0, 174);
 }
 #espan{
-    color: rgb(250, 0, 117);
+    color: rgb(5, 255, 159);
     text-decoration: none;
 }
 
@@ -256,7 +259,10 @@ nav a:hover{
 /* footer */
 
 footer{
-    background: #000;
+    background:linear-gradient(#000, #000, #000, #000, #000, rgb(0, 255, 128));
+    box-shadow: inset 0 0 5px rgb(0, 255, 128),0 0 rgb(0, 255, 128);
+    border: 3.5px solid rgb(0, 255, 128);
+    border-radius: 1%;
     padding-bottom: 0.1px;
 }
 
@@ -271,7 +277,8 @@ footer{
 
 .contact-us{
     width: 40%;
-    color: #fff;
+    color: rgb(255, 0, 174);
+    text-shadow:0 0 5px rgb(255, 0, 174);
 }
 
 .brand{
@@ -309,6 +316,17 @@ footer{
     text-align: center;
     color: #fff;
 }
+.social-media-icon-3{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
 
 .social-media-icon-1:hover{
     background: blue;
@@ -318,6 +336,11 @@ footer{
     background: #fff;
     color: rgb(218, 0, 116);
 }
+.social-media-icon-3:hover{
+    background: rgb(0, 162, 22);
+    color: #fff;
+}
+
 
 .social-media-icon-1 i{
     font-size: 30px;
@@ -327,13 +350,17 @@ footer{
     font-size: 30px;
     line-height: 60px;
 }
+.social-media-icon-3 i{
+    font-size: 30px;
+    line-height: 60px;
+}
 
 .line{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     height: 2px;
-    background: #fff;
+    background: rgb(255, 0, 174);
     margin-bottom: 60px;
 }
 
